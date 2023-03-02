@@ -1,0 +1,31 @@
+h1 {
+    color:aquamarine;
+    font-family:'Segoe UI';
+}
+header {
+    width: 350px;
+    margin: 0px auto;
+}
+section {
+    margin: 0px auto;
+    display: flex;
+    width: 800px;
+    height: 630px;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit:cover;
+    opacity: .8;
+    transition: 2s ease-out;
+}
+section img:hover {
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+body {
+    background-color: black;
+
+}

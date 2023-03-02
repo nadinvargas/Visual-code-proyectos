@@ -1,0 +1,63 @@
+#titulo {
+    color:tomato;
+}
+
+p.texto {
+    color:slateblue;
+}
+
+p.especial {
+    color:mediumseagreen;
+}
+
+div p {
+    color:aquamarine;
+}
+
+div h2, div h3 {
+    color:brown;
+}
+
+* {
+    font-size: 24px;
+    color:black
+}
+
+/* esto es un comentaario 
+.color {
+    color:#ff0000; 
+}
+.color {
+    color: rgb(255, 0, 0)
+}
+*/ 
+
+.color {
+    /* border: 5px black dotted; */
+
+     /*
+     dotted
+     dashed
+     solid
+     double
+     groove
+     ridge
+     inset
+     outset
+     none
+     hidden
+     */
+
+     border-style: solid; 
+     border-color: blue;
+     border-radius: 5px;
+     border-width: 2em;
+
+}
+#fondo {
+    background-color: rgba(255, 0, 0,);
+   /* opacity: 0.3; */
+   height: 400px;
+   background-image: url('corazon.jpg');
+   background-size: 400px 400px;
+}

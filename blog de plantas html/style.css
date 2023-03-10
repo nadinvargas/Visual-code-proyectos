@@ -12,6 +12,7 @@ section {
     width: 800px;
     height: 630px;
 }
+
 section img {
     width: 0px;
     flex-grow: 1;

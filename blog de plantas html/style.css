@@ -1,9 +1,9 @@
-h1 {
+H1 {
     color:green;
     font-family:'Rubik Puddles', cursive;
 }
 header {
-    width: 350px;
+    width: 600px;
     margin: 0px auto;
 }
 section {
@@ -30,3 +30,7 @@ body {
     background-color: black;
 
 }
+h2 {
+    font-family: 'Nabla', cursive;
+}
+
